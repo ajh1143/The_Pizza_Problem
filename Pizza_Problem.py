@@ -27,9 +27,9 @@ def the_problem_with_pizza(marty, luis, pizza_size_Marty, pizza_size_Luis):
 if __name__ == '__main__':
     Marty = getMarty()
     Luis = getLuis()
-    print("2:1 ratio pizza sizes in Marty favor")
+    print("2:1 ratio pizza sizes in Marty's favor")
     the_problem_with_pizza(Marty,Luis,2,1)
-    print("1:2 ratio pizza sizes in Luis favor")
+    print("1:2 ratio pizza sizes in Luis' favor")
     the_problem_with_pizza(Marty,Luis,1,2)
     print("1:1 ratio of pizza sizes")
     the_problem_with_pizza(Marty,Luis,1,1)
