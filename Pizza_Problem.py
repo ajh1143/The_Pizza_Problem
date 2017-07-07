@@ -1,11 +1,15 @@
+
+#Returns a ratio of Luis' pizza consumption
 def getLuis():
     luis_ratio = 5/6
     return luis_ratio
 
+#Returns a ratio of Marty's pizza consumption
 def getMarty():
     marty_ratio = 2/3
     return marty_ratio
 
+#Calculates the amount of pizza consumed based on Marty/Luis' eating habits, and the size of the pizza 
 def the_problem_with_pizza(marty, luis, pizza_size_Marty, pizza_size_Luis):
     M = marty
     L = luis
@@ -23,7 +27,7 @@ def the_problem_with_pizza(marty, luis, pizza_size_Marty, pizza_size_Luis):
         print("Luis ate: " + str(format(luis_ate - marty_ate, '.2f'))+ " more pizza units. We can deduce that they ate the same size pizza or\nLuis' "
                                                                        "pizza was larger\n")
 
-
+#Main
 if __name__ == '__main__':
     Marty = getMarty()
     Luis = getLuis()
