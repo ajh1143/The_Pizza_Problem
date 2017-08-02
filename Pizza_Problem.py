@@ -24,8 +24,8 @@ def the_problem_with_pizza(marty, luis, pizza_size_Marty, pizza_size_Luis):
     if marty_ate > luis_ate:
         print("Marty ate : " + str(format(marty_ate - luis_ate, '.2f')) + " more pizza units. The teacher is wrong.\n")
     else:
-        print("Luis ate: " + str(format(luis_ate - marty_ate, '.2f'))+ " more pizza units. We can deduce that they ate the same size pizza or\nLuis' "
-                                                                       "pizza was larger\n")
+        print("Luis ate: " + str(format(luis_ate - marty_ate, '.2f'))+ " more pizza units. We can deduce that they ate the same "
+                                                                       +"size pizza or Luis' pizza was larger\n")
 
 #Main
 if __name__ == '__main__':
